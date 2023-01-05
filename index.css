@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,100&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+ background-color:#f1f1f1;
+}
+hr {
+  margin: 0px;
+}
+.name-cont
+{
+  color: rgb(49, 43, 42);
+}
+section {
+  padding: 0px 40px;
+  padding-bottom: 20px;
+}
+.contact-container
+{
+  display: flex;
+  flex-direction: column;
+}
+.contact-container >span
+{
+ margin-bottom: 04px; 
+}
+address
+{
+  margin-top: 06px;
+}
+
+h1{
+  font-size: 40px;
+  color: #959090;
+}
+.list-items
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: -30px;
+}
+.paper {
+
+  border-radius: 3px;
+  max-width: 900px;
+  margin: 50px auto;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  background: #fff;
+}
+#profile-cont {
+  background-color: rgb(208, 214, 218);
+  border-top: 10px solid rgb(79 57 117);
+}
+#career-obj>hr
+{
+  margin: -10px 0px 20px 0px;
+ max-width:250px;
+}
+#skills-container >hr
+{
+  margin: -10px 0px 20px 0px;
+  max-width: 550px;
+}
+#educational-container>hr
+{
+  margin: -10px 0px 20px 0px;
+ max-width:400px;
+}
+#achievement-container >hr
+{
+  margin: -10px 0px 20px 0px;
+  max-width:700px;
+}
+#hobbies-container >hr
+{
+  margin: -10px 0px 20px 0px;
+  max-width:800px;
+}
+
+#hobbies-container >ul
+{
+  margin-left: -30px;
+}
+#declaration-container >hr
+{
+  margin: -10px 0px 20px 0px;
+  max-width:900px;
+}
+#career-obj > p {
+  font-size: 17px;
+}
+tr {
+  font-size: 16px;
+}
+.link-container >span
+{
+  margin-right: 60px;
+}
+table
+{
+  border:1px solid rgb(119, 119, 131);
+  border-collapse: collapse;
+  /* background-color: aquamarine; */
+}
+.profile-img {
+  height: 140px;
+  width: 140px;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 50%;
+  border: 10px solid #f1f1f1;
+  float: right;
+  clear: right;
+}
+.arrow {
+  border: solid rgb(44, 41, 41);
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+thead >tr
+{
+  background-color: rgb(175, 179, 181) !important;
+}
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+hr {
+  height: 2px;
+  background-color: rgb(181, 213, 235);
+  border: none;
+}
+h2 {
+  color: rgb(79, 57, 117);
+}
+
+#footer-container{/* {  background-color: rgb(208, 214, 218); */
+  
+  background-color: rgb(208, 214, 218);
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+#footer-container > h3 {
+  color: rgb(79, 57, 117);
+}
+#footer-container >span
+{
+  margin-bottom:10px;
+}
+#declartion-container > p {
+  font-weight: 700px;
+}
+.link-container
+{
+  display: flex;
+  flex-direction:row;
+}
+@media screen and(max-width: 768px) {
+  .profile-img {
+    float: none;
+    clear: none;
+  }
+}
