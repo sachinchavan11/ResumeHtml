@@ -92,10 +92,6 @@ h1{
 tr {
   font-size: 16px;
 }
-.link-container >span
-{
-  margin-right: 60px;
-}
 table
 {
   border:1px solid rgb(119, 119, 131);
@@ -159,6 +155,7 @@ h2 {
 {
   display: flex;
   flex-direction:row;
+  justify-content: space-between;
 }
 @media screen and(max-width: 768px) {
   .profile-img {
